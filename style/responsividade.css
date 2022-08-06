@@ -1,0 +1,113 @@
+@media screen and (max-width: 750px) {
+
+    body{
+        background-color: red;
+    }
+    .biografia span{
+        color: #fff;
+        font-size: 29px;
+    }
+    
+    .biografia strong{
+        color: #fff;
+        font-size: 38px;
+    }
+    .buttons {
+        width: 550px;
+        height: 90px;
+    }
+
+    .copyright p {
+        text-align: justify;
+        font-family: 'open sans';
+        font-weight: 500;
+        font-size: 14px;
+        color: #3c3c3c;
+    }
+  }
+
+  @media screen and (max-width: 650px) {
+
+    
+    .biografia span{
+        color: #fff;
+        font-size: 26px;
+    }
+
+    .logo{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 90px;
+        height: 90px;
+        background-color: gray;
+        border-radius: 100%;
+    }
+    
+    .biografia strong{
+        margin-left: 9px;
+        color: #fff;
+        font-size: 28px;
+    }
+
+    .biografia p{
+        color: #fffefe;
+        font-size: 20px;
+        width: 407px;
+        margin-left: 10px;
+    }
+    
+    .buttons {
+        width: 530px;
+        height: 85px;
+    }
+
+    .copyright p {
+        font-family: 'open sans';
+        font-weight: 500;
+        font-size: 9px;
+        color: #3c3c3c;
+    }
+  }
+
+
+  @media screen and (max-width: 550px) {
+
+    .biografia{
+    }
+    .biografia span{
+        color: #fff;
+        font-size: 18px;
+    }
+
+    .biografia p{
+        font-size: 15px;
+    }
+
+    .logo{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 60px;
+        height: 60px;
+        background-color: gray;
+        border-radius: 100%;
+    }
+    
+    .biografia strong{
+        margin-left: 10px;
+        color: #fff;
+        font-size: 20px;
+    }
+    .buttons {
+        width: 530px;
+        height: 85px;
+    }
+
+    .copyright p {
+        font-family: 'open sans';
+        font-weight: 500;
+        font-size: 9px;
+        color: #3c3c3c;
+    }
+  }

@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto','open sans',sans-serif;
+    text-decoration: none;
+}
+
+html,body{
+    height: 100%;
+}
+
+
+main{
+    position: relative;
+    background-color:#ebebeb;
+    width: 100%;
+}
+
+.linear{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #0e0c0c69;
+}
+
+.header{
+    width: 100%;
+    height: 490px;
+    /* background-image: url(/imagens/WhatsApp\ Image\ 2022-08-02\ at\ 00.01.52.jpeg);
+    background-size: contain; */
+}
+
+.biografia{
+    align-items: center;
+    display: flex;
+    margin-top: 270px;
+    margin-left: 10px;
+    max-width: 90%;
+    width: 750px;
+    height: calc(100% - 270px);
+}
+
+.biografia strong{
+    color: #fff;
+    font-size: 44px;
+}
+
+.biografia span{
+    color: #fff;
+    font-size: 38px;
+}
+
+.biografia p{
+    color: #fffefe;
+    font-size: 22px;
+    width: 407px;
+    margin-left: 10px;
+}
+
+.logo{
+    background-image: url(/imagens/logo.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    background-color: gray;
+    border-radius: 100%;
+}
+
+/* fim header  */
+
+/* inicio section  */
+
+.section{
+    width: 100%;
+    padding-bottom: 2%;
+}
+
+.grupoButtons{
+    margin-top: 180px;
+}
+.buttons{
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+    border-radius: 7.5px;
+    margin: 50px auto;
+    max-width: 70%;
+    width: 700px;
+    padding:  0 20px 0 20px;
+    align-items: center;
+    box-shadow: -3px -4px 4px 0px #0e0e0e40;
+    transition: all 150ms;
+    height: 100px;
+    background-color: gray;
+}
+
+
+
+.buttons:hover{
+    box-shadow: 5px 10px 4px 0px #00000030;
+
+}
+
+.buttons p{
+    text-align: center;
+    width: calc(100% - 102px);
+    font-weight: bold;
+    color: white;
+    font-size: 32px;
+}
+
+.buttons svg{
+    height: 40px;
+}
+
+.email p{
+    font-size: 27px;
+}
+
+.whatssap{
+    background-color: #50d766d0;
+}
+
+.whatssap:hover{
+    background-color: #50d766fb;
+}
+
+
+.instagram{
+    background: linear-gradient(86.48deg, rgba(142, 123, 216, 0.56) -12.92%, rgba(231, 83, 81, 0.4368) 45.79%, rgba(240, 201, 159, 0.3192) 113.7%);
+}
+
+.instagram:hover{
+    background: linear-gradient(86.48deg, rgb(142, 123, 216) -12.92%, rgba(231, 84, 81, 0.781) 45.79%, rgba(240, 201, 159, 0.877) 113.7%);
+}
+
+
+
+
+.email{
+    background-color: #e13c3cc9;
+}
+
+.email:hover{
+    background-color: #E13C3C;
+}
+
+
+/* fim section  */
+
+.copyright{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #d5d5d5;
+    height: 70px;
+}
+.copyright p {
+    font-family: 'open sans';
+    font-weight: 500;
+    color: #3c3c3c;
+}
+
+
+/* fim footer  */
+
+
+
+
+.cabide{
+    width: 15%;
+    z-index: 0;
+    fill: #0000004f;
+    position: absolute;
+}
+
+.section svg:nth-child(1){
+    top: 630px;
+    left:100px;
+    right: 10px ;
+}
+
+.section svg:nth-child(2){
+    top: 517px;
+    left: 46px;
+    transform: rotate(70deg);
+}
+
+.section svg:nth-child(3){
+    top: 639px;
+    left: 80%;
+    transform: rotate(55deg);
+}
+
+.section svg:nth-child(4){
+    top: 1000px;
+    left: 10%;
+    transform: rotate(120deg);
+}
+
+.section svg:nth-child(5){
+    top: 1041px;
+    left: 80%;
+    transform: rotate(140deg);
+}
+
+.section svg:nth-child(6){
+    top: 543px;
+    left: 78%;
+    transform: rotate(100deg);
+}
+
+
+
+.section svg:nth-child(7){
+    top: 783px;
+    left: 84%;
+    transform: rotate(1deg);
+}
+
+.section svg:nth-child(8){
+    top: 724px;
+    left: 14%;
+    transform: rotate(310deg);
+}
+
+.section svg:nth-child(9){
+    top: 854px;
+    left: 78%;
+    transform: rotate(260deg);
+}
+
+.section svg:nth-child(10){
+    top: 854px;
+    left: 9%;
+    transform: rotate(260deg);
+}
+

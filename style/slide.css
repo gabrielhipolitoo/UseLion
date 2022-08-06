@@ -1,0 +1,43 @@
+.header{
+    background-image: url(/imagens/img9.jpeg);
+    animation-name: slideEvent;
+    /* animation-duration: 5s; */
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    background-position: center;
+    background-size: 35%;
+    
+}
+
+@keyframes slideEvent{
+
+    0%{
+        background-image: url(/imagens/img8.jpeg);
+    }
+
+    25%{
+        background-image: url(/imagens/img8.jpeg);
+
+    }
+
+    50%{
+        background-image: url(/imagens/img5.jpeg);
+
+    }
+     
+    75%{
+        background-image: url(/imagens/img9.jpeg);
+
+    }
+
+    100%{
+        background-image: url(/imagens/WhatsApp\ Image\ 2022-08-02\ at\ 00.01.52.jpeg);
+    }
+
+  
+  
+ 
+   
+   
+   
+}
