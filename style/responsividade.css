@@ -268,7 +268,8 @@
 
   @media screen and (max-width: 350px) {
 
-    
+    main{
+    }
     .biografia span{
         color: #fff;
         font-size: 15px;
@@ -285,7 +286,7 @@
         background-size: cover;
         width: 70px;
         height: 70px;
-        background-color: gray;
+        background-color: rgb(206, 33, 33);
         border-radius: 100%;
     }
     
@@ -311,6 +312,6 @@
         font-family: 'open sans';
         font-weight: 500;
         font-size: 9px;
-        color: #3c3c3c;
+        color: #e21e1e;
     }
   }
