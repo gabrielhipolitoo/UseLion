@@ -36,7 +36,7 @@ main{
     margin-top: 270px;
     margin-left: 10px;
     max-width: 90%;
-    width: 750px;
+    width: 100%;
     height: calc(100% - 270px);
 }
 
@@ -61,7 +61,7 @@ main{
     background-image: url(/imagens/logo.jpeg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
     width: 150px;
     height: 150px;
     background-color: gray;
@@ -137,8 +137,6 @@ main{
 }
 
 
-
-
 .email{
     background-color: #e13c3cc9;
 }
@@ -156,8 +154,9 @@ main{
     align-items: center;
     justify-content: space-around;
     background-color: #d5d5d5;
-    height: 70px;
+    height: 80px;
 }
+
 .copyright p {
     font-family: 'open sans';
     font-weight: 500;

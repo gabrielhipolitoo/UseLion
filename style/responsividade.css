@@ -58,8 +58,13 @@
     }
     
     .buttons {
-        width: 530px;
-        height: 85px;
+        width:380px;
+        height: 65px;
+    }
+
+    .buttons p{
+        font-size: 15px;
+
     }
 
     .copyright p {
@@ -73,23 +78,23 @@
 
   @media screen and (max-width: 550px) {
 
-    .biografia{
-    }
+    
     .biografia span{
         color: #fff;
         font-size: 18px;
     }
 
     .biografia p{
-        font-size: 15px;
+        width: 340px;
+        font-size: 12px;
     }
 
     .logo{
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        width: 60px;
-        height: 60px;
+        width: 90px;
+        height: 90px;
         background-color: gray;
         border-radius: 100%;
     }
@@ -97,11 +102,209 @@
     .biografia strong{
         margin-left: 10px;
         color: #fff;
-        font-size: 20px;
+        font-size: 15px;
+    }
+    .buttons {
+        width: 500px;
+        height: 50px;
+    }
+
+    .buttons svg{
+        height: 25px;
+    }
+   
+
+    .copyright p {
+        font-family: 'open sans';
+        font-weight: 500;
+        font-size: 9px;
+        color: #3c3c3c;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+
+    
+    .biografia span{
+        color: #fff;
+        font-size: 15px;
+    }
+
+    .biografia p{
+        width: 280px;
+        font-size: 10px;
+    }
+
+    .logo{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 70px;
+        height: 70px;
+        background-color: gray;
+        border-radius: 100%;
+    }
+    
+    .biografia strong{
+        margin-left: 10px;
+        color: #fff;
+        font-size: 15px;
     }
     .buttons {
         width: 530px;
-        height: 85px;
+        height: 50px;
+    }
+
+    .buttons svg{
+        height: 25px;
+    }
+
+    .copyright p {
+        font-family: 'open sans';
+        font-weight: 500;
+        font-size: 9px;
+        color: #3c3c3c;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+
+    
+    .biografia span{
+        color: #fff;
+        font-size: 15px;
+    }
+
+    .biografia p{
+        width: 240px;
+        font-size: 9px;
+    }
+
+    .logo{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 70px;
+        height: 70px;
+        background-color: gray;
+        border-radius: 100%;
+    }
+    
+    .biografia strong{
+        margin-left: 10px;
+        color: #fff;
+        font-size: 15px;
+    }
+    .buttons {
+        width: 500px;
+        height: 45px;
+    }
+
+    .buttons p{
+       font-size: 13px;
+    }
+
+    .buttons svg{
+        height: 25px;
+    }
+
+    .copyright p {
+        font-family: 'open sans';
+        font-weight: 500;
+        font-size: 9px;
+        color: #3c3c3c;
+    }
+  }
+
+
+  @media screen and (max-width: 400px) {
+
+    
+    .biografia span{
+        color: #fff;
+        font-size: 15px;
+    }
+
+    .biografia p{
+        width: 240px;
+        font-size: 9px;
+    }
+
+    .logo{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 70px;
+        height: 70px;
+        background-color: gray;
+        border-radius: 100%;
+    }
+    
+    .biografia strong{
+        margin-left: 10px;
+        color: #fff;
+        font-size: 15px;
+    }
+    .buttons {
+        width: 500px;
+        height: 45px;
+    }
+
+    .buttons p{
+       font-size: 13px;
+    }
+
+    .buttons svg{
+        height: 25px;
+    }
+
+    .copyright p {
+        font-family: 'open sans';
+        font-weight: 500;
+        font-size: 9px;
+        color: #3c3c3c;
+    }
+  }
+
+  @media screen and (max-width: 350px) {
+
+    
+    .biografia span{
+        color: #fff;
+        font-size: 15px;
+    }
+
+    .biografia p{
+        width: 200px;
+        font-size: 9px;
+    }
+
+    .logo{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 70px;
+        height: 70px;
+        background-color: gray;
+        border-radius: 100%;
+    }
+    
+    .biografia strong{
+        margin-left: 10px;
+        color: #fff;
+        font-size: 15px;
+    }
+    .buttons {
+        width: 450px;
+        height: 45px;
+    }
+
+    .buttons p{
+       font-size: 13px;
+    }
+
+    .buttons svg{
+        height: 25px;
     }
 
     .copyright p {
