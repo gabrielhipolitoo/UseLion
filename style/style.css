@@ -76,9 +76,20 @@ main{
     width: 100%;
     padding-bottom: 2%;
 }
+.texto2{
+    width: 100%;
+    font-weight: bolder;
+    margin-top: 50px;
+    font-size: 32px;
+}
+
+.texto2 p{
+    text-align: center;
+}
+
 
 .grupoButtons{
-    margin-top: 180px;
+    margin-top: 60px;
 }
 .buttons{
     cursor: pointer;

@@ -1,6 +1,8 @@
 @media screen and (max-width: 750px) {
 
-    body{
+   
+    .texto2 p{
+        font-size: 25px;
     }
     .biografia span{
         color: #fff;
@@ -31,10 +33,10 @@
         height: 350px;
     }
  
+     .texto2 p{
+        font-size: 20px;
+     }
 
-    .section{
-        height: 650px;
-    }
     .logo{
         background-position: center;
         background-repeat: no-repeat;
@@ -141,8 +143,11 @@
         height: 300px;
     }
 
+    .texto2 p{
+        font-size: 18px;
+     }
+
     .section{
-        height: 500px;
     }
     .biografia span{
         color: #fff;
@@ -192,9 +197,11 @@
         height: 250px;
     }
 
-    .section{
-        height: 500px;
-    }
+   
+    .texto2 p{
+        font-size: 16px;
+     }
+   
     .biografia span{
         color: #fff;
         font-size: 15px;
@@ -249,6 +256,10 @@
         color: #fff;
         font-size: 14px;
     }
+
+    .texto2 p{
+        font-size: 14px;
+     }
 
     .biografia p{
         width: 180px;
