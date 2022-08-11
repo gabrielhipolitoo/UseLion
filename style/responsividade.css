@@ -92,7 +92,6 @@
     }
     
     .section{
-        height: 720px;
     }
     .biografia span{
         color: #fff;
@@ -140,15 +139,13 @@
   @media screen and (max-width: 500px) {
 
     .header{
-        height: 300px;
     }
 
     .texto2 p{
         font-size: 18px;
      }
 
-    .section{
-    }
+    
     .biografia span{
         color: #fff;
         font-size: 15px;
